@@ -1,0 +1,26 @@
+@{
+    ViewData["Title"] = "MENU ESTUDIANTE";
+}
+<environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/menu-est.min.css" />
+        
+</environment>
+<environment exclude="Development">
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/menu-est.min.css" asp-append-version="true" />
+</environment>
+<div class="title">
+    
+    <h1>Menu Principal - Estudiante</h1>
+
+    <table class="menu-tabla">
+        <tr>
+            <th><button type="button" class="btn btn-primary btn-lg">Generar Prestamo</button></th>
+            <th><button type="button" class="btn btn-primary btn-lg">Buscar Catalogo</button></th>
+        </tr>
+    </table>
+     
+</div>

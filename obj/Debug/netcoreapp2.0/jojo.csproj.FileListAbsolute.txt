@@ -1,0 +1,22 @@
+C:\Users\Clase\Desktop\jojo\bin\Debug\netcoreapp2.0\jojo.deps.json
+C:\Users\Clase\Desktop\jojo\bin\Debug\netcoreapp2.0\jojo.runtimeconfig.json
+C:\Users\Clase\Desktop\jojo\bin\Debug\netcoreapp2.0\jojo.runtimeconfig.dev.json
+C:\Users\Clase\Desktop\jojo\bin\Debug\netcoreapp2.0\jojo.dll
+C:\Users\Clase\Desktop\jojo\bin\Debug\netcoreapp2.0\jojo.pdb
+C:\Users\Clase\Desktop\jojo\obj\Debug\netcoreapp2.0\jojo.csprojAssemblyReference.cache
+C:\Users\Clase\Desktop\jojo\obj\Debug\netcoreapp2.0\jojo.csproj.CoreCompileInputs.cache
+C:\Users\Clase\Desktop\jojo\obj\Debug\netcoreapp2.0\jojo.AssemblyInfoInputs.cache
+C:\Users\Clase\Desktop\jojo\obj\Debug\netcoreapp2.0\jojo.AssemblyInfo.cs
+C:\Users\Clase\Desktop\jojo\obj\Debug\netcoreapp2.0\jojo.dll
+C:\Users\Clase\Desktop\jojo\obj\Debug\netcoreapp2.0\jojo.pdb
+C:\Users\mau_a\Desktop\CLASES\6TO CICLO\Programación1\jojo-master(proyecto_biblioteca)\bin\Debug\netcoreapp2.0\jojo.deps.json
+C:\Users\mau_a\Desktop\CLASES\6TO CICLO\Programación1\jojo-master(proyecto_biblioteca)\bin\Debug\netcoreapp2.0\jojo.runtimeconfig.json
+C:\Users\mau_a\Desktop\CLASES\6TO CICLO\Programación1\jojo-master(proyecto_biblioteca)\bin\Debug\netcoreapp2.0\jojo.runtimeconfig.dev.json
+C:\Users\mau_a\Desktop\CLASES\6TO CICLO\Programación1\jojo-master(proyecto_biblioteca)\bin\Debug\netcoreapp2.0\jojo.dll
+C:\Users\mau_a\Desktop\CLASES\6TO CICLO\Programación1\jojo-master(proyecto_biblioteca)\bin\Debug\netcoreapp2.0\jojo.pdb
+C:\Users\mau_a\Desktop\CLASES\6TO CICLO\Programación1\jojo-master(proyecto_biblioteca)\obj\Debug\netcoreapp2.0\jojo.csprojAssemblyReference.cache
+C:\Users\mau_a\Desktop\CLASES\6TO CICLO\Programación1\jojo-master(proyecto_biblioteca)\obj\Debug\netcoreapp2.0\jojo.csproj.CoreCompileInputs.cache
+C:\Users\mau_a\Desktop\CLASES\6TO CICLO\Programación1\jojo-master(proyecto_biblioteca)\obj\Debug\netcoreapp2.0\jojo.AssemblyInfoInputs.cache
+C:\Users\mau_a\Desktop\CLASES\6TO CICLO\Programación1\jojo-master(proyecto_biblioteca)\obj\Debug\netcoreapp2.0\jojo.AssemblyInfo.cs
+C:\Users\mau_a\Desktop\CLASES\6TO CICLO\Programación1\jojo-master(proyecto_biblioteca)\obj\Debug\netcoreapp2.0\jojo.dll
+C:\Users\mau_a\Desktop\CLASES\6TO CICLO\Programación1\jojo-master(proyecto_biblioteca)\obj\Debug\netcoreapp2.0\jojo.pdb
