@@ -41,6 +41,14 @@ namespace jojo.Controllers
             return View();
         }
        
+        public IActionResult RegistrarLibro()
+        {
+            return View();
+        }
+        public IActionResult DetalleLib()
+        {
+            return View();
+        }
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });

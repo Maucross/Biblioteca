@@ -1,0 +1,11 @@
+.borde {
+   
+    border-style: groove;
+    border-width: 2px 5px 4px 5px;
+    border: 2px solid rgb(80, 80, 80);
+    border-radius: 20px;
+    background-color: rgb(212, 212, 212);
+}
+body{
+    background-color: antiquewhite;
+}

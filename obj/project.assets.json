@@ -12668,11 +12668,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\mau_a\\Desktop\\CLASES\\6TO CICLO\\Programación1\\jojo-master(proyecto_biblioteca)\\jojo.csproj",
+      "projectUniqueName": "C:\\Users\\mau_a\\Desktop\\CLASES\\6TO CICLO\\Programación1\\ProyectoBiblioteca\\Biblioteca\\jojo.csproj",
       "projectName": "jojo",
-      "projectPath": "c:\\Users\\mau_a\\Desktop\\CLASES\\6TO CICLO\\Programación1\\jojo-master(proyecto_biblioteca)\\jojo.csproj",
+      "projectPath": "C:\\Users\\mau_a\\Desktop\\CLASES\\6TO CICLO\\Programación1\\ProyectoBiblioteca\\Biblioteca\\jojo.csproj",
       "packagesPath": "C:\\Users\\mau_a\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\mau_a\\Desktop\\CLASES\\6TO CICLO\\Programación1\\jojo-master(proyecto_biblioteca)\\obj\\",
+      "outputPath": "C:\\Users\\mau_a\\Desktop\\CLASES\\6TO CICLO\\Programación1\\ProyectoBiblioteca\\Biblioteca\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
