@@ -40,12 +40,37 @@ namespace jojo.Controllers
 
             return View();
         }
-       
+          public IActionResult GenerarPrestamoB()
+        {
+            ViewData["Message"] = "Your Prestamo page.";
+
+            return View();
+        }
+           public IActionResult GenerarPrestamoE()
+        {
+            ViewData["Message"] = "Your Prestamo page.";
+
+            return View();
+        }
+
+        public IActionResult MantenerReserva()
+        {
+            
+            return View();
+        }
         public IActionResult RegistrarLibro()
         {
             return View();
         }
         public IActionResult DetalleLib()
+        {
+            return View();
+        }
+         public IActionResult BuscarCatalogo()
+        {
+            return View();
+        }
+         public IActionResult InfoLibro()
         {
             return View();
         }

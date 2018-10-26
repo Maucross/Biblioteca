@@ -1,0 +1,90 @@
+@{
+    ViewData["Title"] = "BuscarCatalogo";
+}
+<br><br><br>
+<div class="row">    
+    <div class="col-md-7">
+        Usuario: <input type="text" value="Mauricio Arizaca Soto">
+    </div>
+    <div class="col-md-3">
+       Fecha de Creación:<input type="date">
+    </div>
+    <div class="col-md-2">
+        <a href="Login">Cerrar Sesión</a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12"><br><br><br>
+        <h1 style="text-align:center"><u>Buscar Catálogo</u></h2>
+        
+    </div>
+</div>
+<div  class=" borde row">
+   
+    <div class="col-md-12">
+        
+            <div><select><option value="ISBN">ISBN</option>
+                        <option value="Titulo">Título</option><option value="Autor">Autor</option>
+                        <option value="Editorial">Editorial</option><option value="Categoria">Categoría</option>
+                        <option value="Todos">Todos</option>
+                </select> 
+                <input type="text">
+                <input type="button" value="Buscar" class="btn btn-primary btn-sm" >
+            </div><br>
+            <div>
+                <h1 style="text-align:center">Resultados de Busqueda</h1>
+               
+                <!--<a class="btn btn-primary btn-sm" href="javascript:window.open('MantenerCliente','','width=500, height=450, left=100, top=100'); void 0">Nuevo Cliente</a>-->
+            </div><br>
+           
+    </div>
+    
+<div class="row">
+    <div class="col-md-12">
+      <table style="width:100%">
+          <tr>
+              <th>Codigo de Libro</th>
+              <th>Título</th>
+              <th>Autor</th>
+              <th>Editorial</th>
+              <th>Año de Publicación</th>
+              <th>Idioma</th>
+              <th></th>
+          </tr>
+          <tr>
+              <td>000001</td>
+              <td>Ingeniería de Software</td>
+              <td>Guillermo Pantaleo</td>
+              <td>Alfaomega</td>
+              <td>2014</td>
+              <td>Español</td>
+              <td>
+                 <a class="btn btn-primary btn-sm" href="javascript:window.open('InfoLibro','','width=110000, height=450, left=100, top=100'); void 0">Ver Detalle</a>   
+                
+               </td>
+          </tr>
+          <tr>
+          </tr>
+          <tr>
+              
+          </tr>
+          <tr>
+              
+          </tr>
+          <tr>
+              
+          </tr>
+          <tr></tr>         
+      </table>
+    </div>
+
+</div><br>
+
+<div class="row">
+    <div class="col-md-7">
+    </div>
+    <div style="text-align:right" class="col-md-5">
+       <a  class="btn btn-primary btn-sm" href="Menu_Bib">Regresar</a>
+
+    </div>
+</div>
