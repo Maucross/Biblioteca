@@ -1,0 +1,91 @@
+@{
+    ViewData["Title"] = "RegistrarLibro";
+}
+<br><br><br>
+<div class="row">    
+    <div class="col-md-7">
+        Usuario: <input type="text" value="Mauricio Arizaca Soto">
+    </div>
+    <div class="col-md-3">
+       Fecha de Creación:<input type="date">
+    </div>
+    <div class="col-md-2">
+        <a href="Login">Cerrar Sesión</a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <h1 style="text-align:center"><u>Generar Prestamo</u></h2>
+        
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        Codigo de Prestamo <input type="text" value="123"/>
+    </div>
+</div><br>
+<div  class="row">
+   
+    <div class="borde col-md-6">
+        <h3>Datos de Libro</h3>
+            <div>
+                Código de Estudiante: <input type="text" value="2015147360">
+            </div><br>
+            <div>
+                Nombres: <input type="text" value="Mauricio Sebastian Leoncio"/>
+                <!--Categoría:<select><option value="Tecnologia">Tecnología</option>
+            <option value="Matematicas">Matemáticas</option></select> -->
+               
+                <!--<a class="btn btn-primary btn-sm" href="javascript:window.open('MantenerCliente','','width=500, height=450, left=100, top=100'); void 0">Nuevo Cliente</a>-->
+            </div><br>
+            <div>
+                Apellidos: <input type="text" value="Arizaca Soto"/>
+            </div><br>
+            <div>
+                Escuela: <input type="text" value="Sistema">
+            </div><br>
+
+            <h3>Datos de Libro</h3>
+            <div>
+                Código de Libro <input type="text" value="000003" />
+                <input type="button" class="btn btn-primary btn-sm" value="Buscar Libro"/>
+            </div><br>
+            <div>
+            ISBN: <input type="text" value="978-9-68-247589-4">
+            </div><br>
+            <div>
+                Título: <input type="text" value="Teoria General de Sistemas">
+            </div><br>
+            <div>
+                Autor : <input type="text" value="John P. Van Gicgh">
+            </div><br>
+            <div>
+                Editorial <input type="text" value="Trillas">
+            </div><br>
+            <div>
+                Año de Publicación <input type="text" value="2006">
+                Estado: <input type="text" value="DISPONIBLE">
+            </div><br>
+    </div>
+    <div class=" col-md-6">
+        <br><br>
+        <div>
+            <h3>Modalidad</h3>
+        </div><br>
+        <div>
+            Sala(Entregar antes que cierre la biblioteca): <input type="checkbox"><br>  
+        </div><br>
+        <div>
+            Domicilio(Entregar máximo 2 días): <input type="checkbox" >     
+        </div><br>
+        <div>
+            Fecha de Reserva: <input type="datetime-local" size="4">
+        </div><br><br><br>
+        <div style="text-align:right">
+        <a  class="btn btn-primary btn-sm" href="Menu_Est">Regresar</a>
+        <button type="button"class="btn btn-primary btn-sm">Generar</button>
+         </div>
+    </div>
+
+</div>
+
