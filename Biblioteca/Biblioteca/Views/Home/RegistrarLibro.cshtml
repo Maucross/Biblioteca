@@ -1,0 +1,129 @@
+@{
+    ViewData["Title"] = "RegistrarLibro";
+}
+<br><br><br>
+<div class="row">    
+    <div class="col-md-7">
+        Usuario: <input type="text" value="Mauricio Arizaca Soto">
+    </div>
+    <div class="col-md-3">
+       Fecha de Creación:<input type="date">
+    </div>
+    <div class="col-md-2">
+        <a href="Login">Cerrar Sesión</a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12"><br><br><br>
+        <h1 style="text-align:center"><u>Registrar Libros</u></h2>
+        
+    </div>
+</div>
+<div  class=" borde row">
+   
+    <div class="col-md-5">
+        <h3>Datos de Libro</h3>
+            <div>Código de Libro: <input type="text" value="000003"></div><br>
+            <div>
+                ISBN: <input type="text" value="978-9-68-247589-4">
+                Categoría:<select><option value="Tecnologia">Tecnología</option>
+            <option value="Matematicas">Matemáticas</option></select> 
+               
+                <!--<a class="btn btn-primary btn-sm" href="javascript:window.open('MantenerCliente','','width=500, height=450, left=100, top=100'); void 0">Nuevo Cliente</a>-->
+            </div><br>
+            <div>
+                Titulo: <input type="text" value="">
+            </div><br>
+            <div>
+                Autor: <input type="text" value="">
+            </div><br>
+            <div>
+                Editorial: <input type="text">
+                Cantidad: <input type="text" size="2">
+            </div><br>
+            <div>
+                Año de Publicación: <input type="text">
+            </div><br>
+    </div>
+    <div class=" col-md-3">
+        <br><br>
+        <div>
+            <h4>Descripción:</h4>
+            Cantidad de Hojas: <input type="text" size="2">
+        </div><br>
+        <div>
+            Tamaño: <br>
+            Alto: <input type="text" size="4"> 
+            Ancho: <input type="text" size="4">
+        </div><br>
+        <div>
+            CD:<br> 
+            Si <input type="checkbox">
+            No <input type="checkbox">
+        </div><br>
+        <div>
+            Idioma: <input type="text">
+        </div>
+    </div><br><br><br> 
+    <div class=" col-md-4">
+        <div>
+            <label for="image">Portada:</label>
+            <input type="image" name="image" id="image" /><br />
+            <input type="submit" name="submit" value="Submit" />
+
+        </div><br>
+        <div>
+            Sipnosis :  <textarea rows="6" cols="45"></textarea>
+        </div><br>   
+    </div>
+</div><br>
+<div class="row">
+    <div class="col-md-12">
+      <table style="width:100%">
+          <tr>
+              <th>Codigo de Libro</th>
+              <th>Título</th>
+              <th>Autor</th>
+              <th>Editorial</th>
+              <th>Año de Publicación</th>
+              <th>Idioma</th>
+              <th></th>
+          </tr>
+          <tr>
+              <td>000001</td>
+              <td>Ingeniería de Software</td>
+              <td>Guillermo Pantaleo</td>
+              <td>Alfaomega</td>
+              <td>2014</td>
+              <td>Español</td>
+              <td>
+                 <a class="btn btn-primary btn-sm" href="javascript:window.open('DetalleLib','','width=110000, height=450, left=100, top=100'); void 0">Modificar</a>   
+                <input type="button" value="Eliminar">  
+               </td>
+          </tr>
+          <tr>
+          </tr>
+          <tr>
+              
+          </tr>
+          <tr>
+              
+          </tr>
+          <tr>
+              
+          </tr>
+          <tr></tr>
+      </table>
+    </div>
+
+</div><br>
+
+<div class="row">
+    <div class="col-md-7">
+    </div>
+    <div style="text-align:right" class="col-md-5">
+       <a  class="btn btn-primary btn-sm" href="Menu_Bib">Regresar</a>
+       <button type="button"class="btn btn-primary btn-sm">Limpiar</button>
+       <button type="button"class="btn btn-primary btn-sm">Registrar</button>
+    </div>
+</div>
