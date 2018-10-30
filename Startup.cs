@@ -32,7 +32,7 @@ namespace jojo
                 app.UseDeveloperExceptionPage();
             }
             else
-            {
+            { 
                 app.UseExceptionHandler("/Home/Error");
             }
 
