@@ -1,3 +1,7 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+
 namespace Biblioteca.Models
 {
     public class prestamo
@@ -7,6 +11,6 @@ namespace Biblioteca.Models
         public int cod_lib {get; set;}
         [Required]
         public string modalidad {get; set;}
-        public Datetime fecha_reserva {get; set;}
+        public DateTime fecha_reserva {get; set;}
     }
 }

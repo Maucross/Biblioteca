@@ -4,9 +4,13 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
+using Biblioteca.Context;
+using Biblioteca.Models;
 using jojo.Models;
 
-namespace jojo.Controllers
+namespace Biblioteca.Controllers
 {
     public class HomeController : Controller
     {
