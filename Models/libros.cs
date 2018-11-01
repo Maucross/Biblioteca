@@ -2,7 +2,9 @@ namespace Biblioteca.Models
 {
     public class libros
     {
+        [Key]
         public int cod_lib {get; set;}
+        [Required]
         public string ISBN {get; set;}
         public string categoria {get; set;}
         public string titulo {get; set;}

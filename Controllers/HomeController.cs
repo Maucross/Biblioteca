@@ -14,6 +14,12 @@ namespace jojo.Controllers
         {
             return View();
         }
+
+        private readonly BibliotecaContext _context;
+        public HomeController(BibliotecaContext _context)
+        {
+            this._context = _context;
+        }
         public IActionResult Login()
         {
             ViewData["Message"] = "Your login page.";
