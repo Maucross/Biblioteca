@@ -23,18 +23,18 @@
    
     <div class="col-md-12">
         
-            <div><select>
+            <div>
+                <select>
                         <option value="Titulo">Título</option>
                         <option value="Autor">Autor</option>
                         <option value="Editorial">Editorial</option>
                         <option value="Categoria">Categoría</option>
                         <option value="Fecha de Emisión">Fecha de Emisión</option>
-                        
-                        
-
                 </select> 
                 <input type="text">
+                <form asp-action="libros" method="GET">
                 <input type="button" value="Buscar" class="btn btn-primary btn-sm" >
+                </form>
             </div><br>
             <div>
                 <h1 style="text-align:center">Resultados de Busqueda</h1>
