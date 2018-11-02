@@ -12,5 +12,6 @@ namespace Biblioteca.Models
         [Required]
         public DateTime fecha_realizacion {get; set;}
         public string estado_reserva {get; set;}
+        public prestamo datosprestamo {get; set;}
     }
 }

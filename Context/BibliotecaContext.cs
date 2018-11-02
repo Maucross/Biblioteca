@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Biblioteca.Models;
-using jojo.Models;
+
 namespace Biblioteca.Context
  {
     public class BibliotecaContext : DbContext
@@ -10,15 +10,12 @@ namespace Biblioteca.Context
 
         }
 
-        /*public DbSet<BuscarCatalogo> BuscarCatalogo { get; set; }
-        public DbSet<DetalleLib> DetalleLib {get; set;}
-        public DbSet<GenerarPrestamoB> GenerarPrestamoB {get; set;}
-        public DbSet<GenerarPrestamoE> GenerarPrestamoE { get; set; }
-        public DbSet<InfoLibro> InfoLibro { get; set; }
-        public DbSet<login> login {get; set;}
-        public DbSet<ManternerReserva> ManternerReserva {get; set;}
-        public DbSet<Prestamo> Prestamo {get; set;}
-        public DbSet<Registrar> Registrar {get; set;} */
+        public DbSet<BibliotecaContext> bibliotecario { get; set; }
+        public DbSet<estudiante> estudiante {get; set;}
+        public DbSet<libros> libros {get; set;}
+        public DbSet<prestamo> prestamo { get; set; }
+        public DbSet<reserva> reserva { get; set; }
+    
 
 
     }
