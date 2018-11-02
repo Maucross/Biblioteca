@@ -12,6 +12,7 @@ namespace Biblioteca.Models
         
         [Required(ErrorMessage = "Error en el usuario o contrasena")]
         public string usuario {get; set;}
+        [Required(ErrorMessage = "Error en el usuario o contrasena")]
         public string contraseña {get; set;}
     }
 }
