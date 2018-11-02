@@ -6,7 +6,6 @@ namespace Biblioteca.Models
     public class libros
     {
         [Key]
-        //Código de Libro
         public int cod_lib {get; set;}
         [Required(ErrorMessage = "Ingresar ISBN")]
         public string ISBN {get; set;}

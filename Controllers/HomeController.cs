@@ -31,13 +31,6 @@ namespace Biblioteca.Controllers
             return View();
         }
 
-        public IActionResult Recuperar_password()
-        {
-            ViewData["Message"] = "RESTAURAR CONTRASEÑA";
-
-            return View();
-        }
-
          public IActionResult Menu_Bib()
         {
             ViewData["Message"] = "MENU PRINCIPAL - BIBLIOTECÓLOGO";
