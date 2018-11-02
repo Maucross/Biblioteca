@@ -23,13 +23,21 @@ namespace Biblioteca.Models
         public int cantidad_lib {get; set;}
         //Año Pub
         public int año_pub {get; set;}
+        //Cantidad Hoj
         public int cantidad_hoj {get; set;}
+        //Alto
         public double alto {get; set;}
+        //Ancho
         public double ancho {get; set;}
+        //CD
         public bool CD {get; set;}
+        //Idioma
         public string idioma {get; set;}
+        //Portada
         public byte portada {get; set;}
+        //Sipnosis
         public string sipnosis {get; set;}
+        //Estado de Libro
         public string estado_libro {get; set;}
     }
 }
