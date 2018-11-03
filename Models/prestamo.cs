@@ -1,5 +1,4 @@
 using System;
-using System.Data.Entity;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
@@ -17,4 +16,5 @@ namespace Biblioteca.Models
         public estudiante datosEstudiante {get; set;}
         public libros datosLibro {get; set;}
     }
+
 }
