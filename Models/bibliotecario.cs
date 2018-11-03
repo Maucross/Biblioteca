@@ -7,6 +7,7 @@ namespace Biblioteca.Models
     public class bibliotecario
     {
         
+        //public int tipoU {get; set;} //tipo1 = bibliotecario, tipo2 = estudiante 
         [Key]
         public int id_bib {get; set;}
         

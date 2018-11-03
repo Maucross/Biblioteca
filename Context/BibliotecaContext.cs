@@ -10,11 +10,12 @@ namespace Biblioteca.Context
 
         }
 
-        public DbSet<BibliotecaContext> bibliotecario { get; set; }
-        public DbSet<estudiante> estudiante {get; set;}
-        public DbSet<libros> libros {get; set;}
-        public DbSet<prestamo> prestamo { get; set; }
-        public DbSet<reserva> reserva { get; set; }
+       
+        public DbSet<Models.bibliotecario> bibliotecario { get; set; }
+        public DbSet<Models.estudiante> estudiante {get; set;}
+        public DbSet<Models.libros> libros {get; set;}
+        public DbSet<Models.prestamo> prestamo { get; set; }
+        public DbSet<Models.reserva> reserva { get; set; }
     
 
 

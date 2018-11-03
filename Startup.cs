@@ -11,6 +11,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Biblioteca.Context;
+using Biblioteca.Models;
 
  
 namespace jojo 
@@ -32,7 +33,7 @@ namespace jojo
 
             var cadenaConexion = Configuration.GetConnectionString("biblioteca");
 
-            services.AddDbContext<BibliotecaContext>(options => options.UseMySql(cadenaConexion));
+            services.AddDbContext<BibliotecaContext>(options => options.UseMySQL(cadenaConexion));
             services.AddMvc();
 
             //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
