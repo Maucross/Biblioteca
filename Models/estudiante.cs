@@ -18,6 +18,7 @@ namespace Biblioteca.Models
         public string nomb {get; set;}
         //Apellido
         public string ape {get; set;}
+        //Escuela
         public string escuela {get; set;}
     }
 }
