@@ -1,6 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 using System;
-using System.Data.EntityFrameworkCore;
 using Biblioteca.Models;
 
 namespace Biblioteca.Context
