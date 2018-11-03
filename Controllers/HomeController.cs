@@ -18,12 +18,12 @@ namespace Biblioteca.Controllers
         {
             return View();
         }
-
         private readonly BibliotecaContext _context;
-        public HomeController(BibliotecaContext _context)
+        private HomeController(BibliotecaContext _context)
         {
             this._context = _context;
         }
+        
         public IActionResult Login()
         {
             ViewData["Message"] = "Your login page.";
